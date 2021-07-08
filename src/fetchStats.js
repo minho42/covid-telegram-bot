@@ -1,4 +1,4 @@
-const axios = require("axios");
+import axios from "axios";
 
 const fetchStats = async () => {
   const config = {
@@ -34,4 +34,4 @@ const fetchStats = async () => {
   return data.data[0];
 };
 
-module.exports = fetchStats;
+export { fetchStats };

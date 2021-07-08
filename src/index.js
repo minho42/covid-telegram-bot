@@ -1,7 +1,9 @@
-require("dotenv").config();
-const fetchStats = require("./fetchStats");
+import dotenv from "dotenv";
+dotenv.config();
 
-const TelegramBot = require("node-telegram-bot-api");
+import TelegramBot from "node-telegram-bot-api";
+import { fetchStats } from "./fetchStats.js";
+
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 const sendMessage = async () => {

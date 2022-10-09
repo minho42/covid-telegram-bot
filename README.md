@@ -3,7 +3,7 @@
 
 A Telegram bot that tells you covid info for NSW, Australia.
 
-Search 'nsw-covid' in Telegram.
+~~Search 'nsw-covid' in Telegram.~~
 
 ## Sources
 
